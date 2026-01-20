@@ -1,0 +1,12 @@
+{
+  "name": "gemini-superpowers",
+  "version": "0.1.0",
+  "description": "A port of the Superpowers extension for Gemini CLI.",
+  "publisher": "gemini-cli-user",
+  "engines": {
+    "gemini": "^1.0.0"
+  },
+  "hooks": {
+    "SessionStart": "hooks/session-start.sh"
+  }
+}
