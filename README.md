@@ -4,6 +4,24 @@
 
 Ported from the original [Superpowers](https://github.com/obra/superpowers) project, this extension transforms Gemini from a standard chat interface into a rigorous, autonomous, and methodologically sound developer partner. It achieves this by injecting proven workflows, strict protocols, and specialized knowledge directly into the agent's context.
 
+## 📦 Installation
+
+### Quick Install
+Install directly from GitHub:
+
+```bash
+gemini extensions install https://github.com/barretstorck/gemini-superpowers
+```
+
+### Development Install
+For contributing or local modifications, clone the repository and link it:
+
+```bash
+git clone https://github.com/barretstorck/gemini-superpowers
+cd gemini-superpowers
+gemini extensions link .
+```
+
 ## 🚀 Features
 
 This extension enhances Gemini through three main components:
@@ -40,14 +58,6 @@ Hooks allow the extension to intervene at specific points in the CLI lifecycle.
 
 *   **Session Start**: Automatically injects the `using-superpowers` context when you start a new session. This ensures the agent is immediately aware of its capabilities and doesn't need to be "reminded" to be smart.
 
-## 📦 Installation
-
-To use these superpowers with your local Gemini CLI, link the current directory as an extension:
-
-```bash
-gemini extensions link .
-```
-
 ## 🛠 Usage
 
 Once installed, the extension works seamlessly in the background:
@@ -68,5 +78,4 @@ The unique philosophy of this project is that **documentation is treated like co
 *   `skills/`: The knowledge base. Each subdirectory contains a `SKILL.md` file.
 *   `commands/`: TOML definitions for CLI shortcuts.
 *   `hooks/`: Shell scripts triggered by CLI events.
-*   `.gemini/`: Local configuration and overrides.
 *   `GEMINI.md`: Comprehensive context documentation for the agent itself.
