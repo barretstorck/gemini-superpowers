@@ -1,3 +1,18 @@
+> [!IMPORTANT]
+> **This project is deprecated and archived. It is no longer maintained.**
+>
+> The upstream [Superpowers](https://github.com/obra/superpowers) project now supports the
+> Gemini CLI directly, which makes this port redundant. Nothing here has been updated since
+> January 2026, so the skills below are significantly behind upstream.
+>
+> Install the official extension instead:
+>
+> ```bash
+> gemini extensions install https://github.com/obra/superpowers
+> ```
+>
+> Thanks to everyone who starred and forked this — please send that attention upstream.
+
 # Gemini Superpowers
 
 **Gemini Superpowers** is a comprehensive extension for the Gemini CLI that equips your AI agent with advanced software engineering capabilities.
